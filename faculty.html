@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOps-faculty-pro</title>
+</head>
+<body>
+    
+</body>
+<script>
+    class School {
+
+Student(name, email, contact) {
+    this.name = name;
+    this.email = email;
+    this.contact = contact;
+    
+    console.log("Student Details : ");
+    console.log(`Name: ${this.name}`);
+    console.log(`Email: ${this.email}`);
+    console.log(`Contact Number: ${this.contact}`);
+}
+
+Faculty(name, email, contact) {
+    this.name = name;
+    this.email = email;
+    this.contact = contact;
+
+    console.log("Faculty Details : ");
+    console.log(`Name: ${this.name}`);
+    console.log(`Email: ${this.email}`);
+    console.log(`Contact Number: ${this.contact}`);
+}
+}
+
+
+const school = new School();
+
+
+school.Student("komal vala", "kvala8087@gmail.com", "123-456-7890");
+school.Faculty("girish sir js", "girishgondaliya@gmail.com", "098-765-4321");
+</script>
+</html>

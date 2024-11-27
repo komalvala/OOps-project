@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOps-rectangle-pro</title>
+</head>
+<body>
+    
+</body>
+<script>
+class Shape {
+
+    CircleArea(radius) {
+        const pi = 3.14;
+        let area = pi * radius * radius;
+        console.log(`Area of Circle with radius ${radius}: ${area}`);
+        return area;
+    }
+
+
+    RectangleArea(w, h) {
+        let area = w * h; 
+        console.log(`Area of Rectangle with width ${w} and height ${h}: ${area}`);
+        return area;
+    }
+}
+
+const shape = new Shape();
+
+shape.CircleArea(8);
+shape.RectangleArea(15, 20);
+
+</script>
+</html>
